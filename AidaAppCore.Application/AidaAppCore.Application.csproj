@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Implementation\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AidaAppCore.Data.EF\AidaAppCore.Data.EF.csproj" />
+    <ProjectReference Include="..\AidaAppCore.Data\AidaAppCore.Data.csproj" />
+    <ProjectReference Include="..\AidaAppCore.Utilities\AidaAppCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
